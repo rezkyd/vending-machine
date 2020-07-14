@@ -18,7 +18,7 @@ enum Step{
     TURN_OFF,
     END
 }
-public class VendingMachine extends Base {
+public class VendingMachine extends Controller {
     private ItemService itemService;
     private MoneyService moneyService;
     private View view;

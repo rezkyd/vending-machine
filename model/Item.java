@@ -1,6 +1,6 @@
 package model;
 
-public class Item{
+public class Item extends Model{
     private int id;
     private String name;
     private int price;
